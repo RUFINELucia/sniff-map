@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "collected_count": 3,
+    "active_mode": false,
+    "include_private": false,
+    "dry_run": true
+  },
+  "results": [
+    {
+      "ip": "192.168.1.1",
+      "private": true,
+      "geo": {
+        "status": "skipped",
+        "message": "private_ip_not_queried"
+      }
+    },
+    {
+      "ip": "8.8.8.8",
+      "private": false,
+      "geo": {
+        "status": "success",
+        "country": "United States",
+        "city": "Mountain View",
+        "lat": 37.4056,
+        "lon": -122.0775,
+        "query": "8.8.8.8"
+      }
+    },
+    {
+      "ip": "1.1.1.1",
+      "private": false,
+      "geo": {
+        "status": "success",
+        "country": "Australia",
+        "city": "Sydney",
+        "lat": -33.8591,
+        "lon": 151.2002,
+        "query": "1.1.1.1"
+      }
+    }
+  ]
+}
